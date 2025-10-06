@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-white text-gray-900;
+  }
+}
+
+@layer utilities {
+  .prose-cosmic {
+    @apply prose prose-lg max-w-none;
+  }
+  
+  .prose-cosmic h1,
+  .prose-cosmic h2,
+  .prose-cosmic h3,
+  .prose-cosmic h4 {
+    @apply text-primary font-bold;
+  }
+  
+  .prose-cosmic p {
+    @apply text-gray-700 leading-relaxed;
+  }
+  
+  .prose-cosmic ul {
+    @apply list-disc list-inside space-y-2;
+  }
+  
+  .prose-cosmic li {
+    @apply text-gray-700;
+  }
+  
+  .prose-cosmic strong {
+    @apply text-primary font-semibold;
+  }
+}
