@@ -93,13 +93,13 @@ export default async function Home() {
             <h1 className="text-5xl font-bold mb-6">
               Transform Your Business with Expert Services
             </h1>
-            <p className="text-xl mb-8 text-blue-100">
+            <p className="text-xl mb-8 text-orange-100">
               We deliver world-class solutions that drive growth and innovation. Our team of experts is dedicated to helping your business succeed.
             </p>
             <div className="flex gap-4">
               <Link
                 href="/services"
-                className="bg-white text-primary px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
+                className="bg-white text-primary px-8 py-3 rounded-lg font-semibold hover:bg-orange-50 transition-colors"
               >
                 Our Services
               </Link>
